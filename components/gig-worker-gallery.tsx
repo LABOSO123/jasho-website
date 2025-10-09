@@ -89,7 +89,7 @@ export function GigWorkerGallery() {
                 <img
                   src={worker.image || "/placeholder.svg"}
                   alt={`${worker.name} - ${worker.role}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
